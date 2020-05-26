@@ -1,0 +1,3 @@
+@Imports ip_proiect.Areas.HelpPage.ModelDescriptions
+@ModelType SimpleTypeModelDescription
+@Model.Documentation

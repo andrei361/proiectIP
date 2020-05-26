@@ -1,0 +1,64 @@
+﻿body
+{margin:0;
+ padding:0;
+ background: url(med2.jpg);
+ background-size:cover;
+ background-attachment:fixed;
+ background-position:center;
+ font-family:sans-serif;
+
+}
+
+*
+{
+    padding:0px;
+    margin:0px;
+
+}
+
+.nav {
+    background: #a45252;
+    border-bottom: 10px solid #441919;
+    box-shadow: 3px 0px 5px grey;
+    text-align: center;
+    padding: 1px;
+}
+
+li
+{
+    display:inline-block;
+    list-style-type: none;
+    padding: 30px 40px;
+    font-size: 24px;
+    color: white;
+    font-family:sans-serif;
+    transition: .5s;
+}
+
+    li:hover {
+        background: #441919;
+        font-weight: bold;
+    }
+
+    .galerie{
+        width:30%;
+        margin:auto;
+        border:5px solid black;
+        overflow:hidden;
+       margin-left:40px;
+       margin-top:100px;
+        
+        box-shadow: 1px 2px white;
+
+    }
+
+    .slide{
+        display:flex;
+        width:100px;
+        height:500px;
+    }
+    .buton{
+        margin-left:250px;
+    }
+
+   
